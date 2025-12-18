@@ -1,0 +1,30 @@
+h2{
+    color: aqua;
+    padding: 8px 10px;
+    font-size: 32px;
+
+}
+
+/* Special decoration for the product title (Zara Hand bag text) */
+.product-name{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px rgba(0, 255, 255, 0.6);
+}
+p{
+    color: aqua;
+    padding: 0 10px;
+    font-size: 18px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+.price-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background:linear-gradient(to right, #020260, #02b9b9) ;
+
+}

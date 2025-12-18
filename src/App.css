@@ -1,0 +1,44 @@
+/* Teal gradient background and simple page reset */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #004d4d, #009999, #00cccc);
+}
+
+/* Button‑like styling for the "Buy now" link */
+.buy-link {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #020260, #02b9b9);
+  color: aqua;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.buy-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+  filter: brightness(1.05);
+}
+
+/* Rounded square image container shown after "Hello Nicolletta" */
+.greeting-image-box {
+  margin-top: 10px;
+  width: 160px;
+  height: 160px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 3px solid #02b9b9;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.greeting-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
